@@ -64,10 +64,6 @@ class CustomTextFormField extends StatefulWidget with PreferredSizeWidget {
 
   @override
   State<CustomTextFormField> createState() => _CustomTextFormFieldState();
-
-  @override
-  // TODO: implement preferredSize
-  Size get preferredSize => throw UnimplementedError();
 }
 
 class _CustomTextFormFieldState extends State<CustomTextFormField> {
@@ -300,6 +296,10 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
         );
     }
   }
+
+  @override
+  // TODO: implement preferredSize
+  Size get preferredSize => throw UnimplementedError();
 
   @override
   // TODO: implement preferredSize
