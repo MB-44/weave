@@ -1,5 +1,4 @@
-
-# weave
+# Weave - 1.0
 ### Table of contents
 - [System requirements](#system-requirements)
 - [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
