@@ -297,12 +297,6 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
     }
   }
 
-  @override
-  // TODO: implement preferredSize
-  Size get preferredSize => throw UnimplementedError();
-
-  @override
-  // TODO: implement preferredSize
   Size get preferredSize => throw UnimplementedError();
 }
 

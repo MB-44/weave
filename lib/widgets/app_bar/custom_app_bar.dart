@@ -64,10 +64,6 @@ abstract class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
         return null;
     }
   }
-
-  @override
-  // TODO: implement preferredSize
-  Size get preferredSize => throw UnimplementedError();
 }
 
 enum Style {
