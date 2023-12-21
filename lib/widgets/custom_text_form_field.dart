@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:weave/core/app_export.dart';
 
 // ignore: must_be_immutable
-class CustomTextFormField extends StatefulWidget with PreferredSizeWidget {
+class CustomTextFormField extends StatefulWidget //with PreferredSizeWidget
+{
   CustomTextFormField(
       {this.shape,
       this.padding,
@@ -64,6 +65,10 @@ class CustomTextFormField extends StatefulWidget with PreferredSizeWidget {
 
   @override
   State<CustomTextFormField> createState() => _CustomTextFormFieldState();
+
+  @override
+  // TODO: implement preferredSize
+  Size get preferredSize => throw UnimplementedError();
 }
 
 class _CustomTextFormFieldState extends State<CustomTextFormField> {
